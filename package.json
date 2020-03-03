@@ -1,0 +1,27 @@
+{
+  "name": "simpleimageapp",
+  "version": "1.0.0",
+  "description": "Simple image app : practice handle file uploads in nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangnurrohman/SimpleImageApp.git"
+  },
+  "author": "Ainur Rohman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kangnurrohman/SimpleImageApp/issues"
+  },
+  "homepage": "https://github.com/kangnurrohman/SimpleImageApp#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.3",
+    "multer": "^1.4.2",
+    "path": "^0.12.7"
+  }
+}
