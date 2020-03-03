@@ -17,15 +17,15 @@
  <h1 class="text-center my-3">All Images</h1>
  <div class="container w-75">
   <div class="row">
-
+   <% images.forEach(img=>{ %>
    <div class="col-4">
-    <img src="" style="border:3px solid grey;" class="mx-4 my-3 p-1" height="250" width="250">
-    <form action="/delete/?_method=DELETE" method="POST" style="display: inline;">
+    <img src="<%= img.imgUrl %>" style="border:3px solid grey;" class="mx-4 my-3 p-1" height="250" width="250">
+    <form action="/delete/<%= img.id %>?_method=DELETE" method="POST" style="display: inline;">
      <input type="hidden" name="_method" value="DELETE">
      <button type="submit" style="cursor: pointer;" class="btn btn-danger float-none mx-4 px-5">Delete</button>
     </form>
    </div>
-
+   <% }); %>
   </div>
  </div>
 
