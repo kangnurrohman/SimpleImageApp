@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kangnurrohman/SimpleImageApp#readme",
   "dependencies": {
-    "ejs": "^3.0.1",
+    "ejs": "^3.1.7",
     "express": "^4.18.2",
     "method-override": "^3.0.0",
     "mongoose": "^5.13.15",
